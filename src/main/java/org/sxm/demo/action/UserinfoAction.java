@@ -53,11 +53,11 @@ public class UserinfoAction extends ActionSupport implements ModelDriven<UserInf
 	public List<UserInfo> getUserInfos() {
 		return userInfos;
 	}
-
+//22222222222222222222222
 	public void setUserInfos(List<UserInfo> userInfos) {
 		this.userInfos = userInfos;
 	}
-//1111111111111111111111111111111111111
+
 
 	@Override
 	public UserInfo getModel() {
