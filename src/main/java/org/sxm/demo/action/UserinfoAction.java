@@ -58,8 +58,10 @@ public class UserinfoAction extends ActionSupport implements ModelDriven<UserInf
 		this.userInfos = userInfos;
 	}
 
+
 	@Override
 	public UserInfo getModel() {
+		//this is my first web!
 		if (null != id) {
 			userInfo = userInfoService.get(id);
 		} else {
