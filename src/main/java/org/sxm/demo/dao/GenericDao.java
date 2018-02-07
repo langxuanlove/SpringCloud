@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface GenericDao<T, PK extends Serializable> {
 	T load(PK id);
-
+//0000000000000000000
 	T get(PK id);
 
 	List<T> findAll();
