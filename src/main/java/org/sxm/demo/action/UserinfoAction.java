@@ -64,6 +64,7 @@ public class UserinfoAction extends ActionSupport implements ModelDriven<UserInf
 		//这是我的dev分支
 		if (null != id) {
 			userInfo = userInfoService.get(id);
+			//111111111111111111111
 		} else {
 			userInfo = new UserInfo();
 		}
