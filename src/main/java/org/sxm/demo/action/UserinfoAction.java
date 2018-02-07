@@ -61,7 +61,7 @@ public class UserinfoAction extends ActionSupport implements ModelDriven<UserInf
 
 	@Override
 	public UserInfo getModel() {
-		//这是我的dev分支
+		//this is my first web!
 		if (null != id) {
 			userInfo = userInfoService.get(id);
 		} else {
