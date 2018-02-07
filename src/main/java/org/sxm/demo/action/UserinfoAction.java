@@ -45,7 +45,7 @@ public class UserinfoAction extends ActionSupport implements ModelDriven<UserInf
 	public UserInfo getUserInfo() {
 		return userInfo;
 	}
-//333333333333333333
+//3333333333333333335555555555555555555550000000000000
 	public void setUserInfo(UserInfo userInfo) {
 		this.userInfo = userInfo;
 	}
