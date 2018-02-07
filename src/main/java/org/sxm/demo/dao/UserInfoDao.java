@@ -4,4 +4,5 @@ import org.sxm.demo.entity.UserInfo;
 
 public interface UserInfoDao extends GenericDao<UserInfo, Integer> {
 //iiiiiiiiiiiiiiii
+    ////0000000000
 }
